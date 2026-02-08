@@ -23,6 +23,7 @@ Además también he empezado a familiarizarme con los comandos básicos de Git, 
 ## 🔗 Recursos útiles
 
 - [https://education.github.com/git-cheat-sheet-education.pdf
+
 https://makeitrealcamp.gitbook.io/guias-de-make-it-real/git/conceptos-comandos-esenciales]
 
 
@@ -62,5 +63,7 @@ Si aún no existe el archivo .gitignore podemos crearlo con nuestro editor de te
 
 ### git add . vs git add archivo
 
-[- git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
+
+[
+- git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
 - git add + [nombre-archivo]: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.]
