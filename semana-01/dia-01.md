@@ -1,4 +1,4 @@
-# 📅 Día 1 - [Fecha]
+# 📅 Día 1 - [06/02/2026]
 
 ## 🎯 Lo que hemos visto hoy
 
@@ -13,15 +13,16 @@
 
 ## 💡 Lo que he aprendido
 
-[Escribe aquí lo más importante que te llevas del día]
+[Durante esta clase he aprendido con el ejercicio de las palabras en griego que con podemos encontrar patrones comunes en un conjunto de datos y agruparlos según un razonamiento lógico.
+De la Git y GitHub he aprendido, que Git es una teconología/lenguaje con comandos propios, que nos permite comunicarnos con el repositorio,  GitHub es la plataforma que está en remoto  en la cual podemos compartir nuestros repositorios y trabajar conjuntamente con otras personas.
+Además también he empezado a familiarizarme con los comandos básicos de Git, a crear y clonar un repositorio, a crear una carpeta dentro del mismo y a crear archivos dentro de las carpetas.]
 
 ## ❓ Dudas que tengo
-
-[Anota aquí lo que necesitas repasar o preguntar]
+[ ]
 
 ## 🔗 Recursos útiles
 
-- [Enlace a algún recurso que te haya gustado]
+- [https://education.github.com/git-cheat-sheet-education.pdf]
 
 ---
 
