@@ -18,7 +18,7 @@ De la Git y GitHub he aprendido, que Git es una teconología/lenguaje con comand
 Además también he empezado a familiarizarme con los comandos básicos de Git, a crear y clonar un repositorio, a crear una carpeta dentro del mismo y a crear archivos dentro de las carpetas.]
 
 ## ❓ Dudas que tengo
-[ ]
+[No entiendo muy bien las diferencias entre algunos de los comandos, y tampoco entiendo como se puede trabajar sobre el código en GitHub ]
 
 ## 🔗 Recursos útiles
 
@@ -30,17 +30,17 @@ Además también he empezado a familiarizarme con los comandos básicos de Git, 
 
 🎯 EJERCICIO 3: Investigación guiada (15 min)
 
-🔍 Parte 1: Explora estos comandos
+# 🔍 Parte 1: Explora estos comandos
 
-git log --oneline
+* git log --oneline
 
-¿Qué muestra? 
+# ¿Qué muestra? 
 
 [muestra los cambios que se han realizado en el repositorio y que se han guardado mediante commits en orden inverso, empezando por el último cambio que se ha hecho en el repositorio.]
 
-git remote -v
+* git remote -v
 
-¿Qué información da? 
+# ¿Qué información da? 
 
 [En esta caso muestra la ruta de los repositorios: 
 
@@ -48,21 +48,20 @@ origin  https://github.com/lucypelaez/bootcamp-apuntes.git (fetch)
 
 origin  https://github.com/lucypelaez/bootcamp-apuntes.git (push)]
 
-git branch
+* git branch
 
-¿En qué rama estás? 
+# ¿En qué rama estás? 
 
 [Este comando nos muestra en que rama del proyecto nos encontramos. Main en este caso sería la rama principal]
 
 
-🔍 Parte 2: Preguntas de investigación
-Busca en internet (o prueba en la terminal) para responder estas preguntas. Añádelas a tu dia-01.md:
+## 🔍 Parte 2: Preguntas de investigación
 
-¿Qué hace el comando git pull?
+# ¿Qué hace el comando git pull?
 
 El comando git pull se utiliza para buscar y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido.
 
-¿Para qué sirve el archivo .gitignore?
+# ¿Para qué sirve el archivo .gitignore?
 
 En git es posible ignorar archivos o carpetas que no queremos incluir en el sistema de control de versiones, ya sea porque tienen información sensible o son autogeneradas por alguna herramienta: logs, archivos temporales, etc.
 
@@ -72,7 +71,7 @@ Los archivos y carpetas definidos en .gitignore no van a aparecer como archivos 
 
 Si aún no existe el archivo .gitignore podemos crearlo con nuestro editor de texto favorito e incluirlo en el siguiente commit.
 
-¿Qué diferencia hay entre git add . y git add nombre-archivo?
+# ¿Qué diferencia hay entre git add . y git add nombre-archivo?
 
 - git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
-- git add <nombre-archivo>: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.
+- git add + [nombre-archivo]: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.
