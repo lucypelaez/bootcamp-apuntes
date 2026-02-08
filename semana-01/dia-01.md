@@ -22,56 +22,45 @@ Además también he empezado a familiarizarme con los comandos básicos de Git, 
 
 ## 🔗 Recursos útiles
 
-- [https://education.github.com/git-cheat-sheet-education.pdf]
+- [https://education.github.com/git-cheat-sheet-education.pdf
+https://makeitrealcamp.gitbook.io/guias-de-make-it-real/git/conceptos-comandos-esenciales]
 
----
 
-**Siguiente paso:** Empezar SAT-01 Atlas
+## 🔍 Comandos investigados
 
-🎯 EJERCICIO 3: Investigación guiada (15 min)
+### git log --oneline
 
-# 🔍 Parte 1: Explora estos comandos
+[Este comando muestra el historial de commits en orden descendente, es decir, primero aparecen los más recientes. se añade la opción --oneline para ver una versión resumida que muestra los primeros 7 caracteres del identificador y el mensaje de cada commit ]
 
-* git log --oneline
+### git remote -v
 
-# ¿Qué muestra? 
+[Para ver los repositorio remotos que tienes configurados, debes ejecutar el comando git remote. Mostrará los nombres de cada uno de los remotos que tienes especificados. Si has clonado tu repositorio, deberías ver al menos origin (origen, en inglés) - este es el nombre que por defecto Git le da al servidor del que has clonado. La opción -v, muestra las URLs que Git ha asociado al nombre y que serán usadas al leer y escribir en ese remoto]
 
-[muestra los cambios que se han realizado en el repositorio y que se han guardado mediante commits en orden inverso, empezando por el último cambio que se ha hecho en el repositorio.]
-
-* git remote -v
-
-# ¿Qué información da? 
-
-[En esta caso muestra la ruta de los repositorios: 
+Ej. [En esta caso muestra la ruta de los repositorios: 
 
 origin  https://github.com/lucypelaez/bootcamp-apuntes.git (fetch)
 
-origin  https://github.com/lucypelaez/bootcamp-apuntes.git (push)]
+origin  https://github.com/lucypelaez/bootcamp-apuntes.git (push)]]
 
-* git branch
+### git branch
 
-# ¿En qué rama estás? 
+[Nos muestra un listado de las ramas de nuestro proyecto. La rama con el asterisco a la izquierda es en la que nos encontramos actualmente.]
 
-[Este comando nos muestra en que rama del proyecto nos encontramos. Main en este caso sería la rama principal]
+### git pull
 
+[El comando git pull se utiliza para buscar y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido.]
 
-## 🔍 Parte 2: Preguntas de investigación
+### .gitignore
 
-# ¿Qué hace el comando git pull?
-
-El comando git pull se utiliza para buscar y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido.
-
-# ¿Para qué sirve el archivo .gitignore?
-
-En git es posible ignorar archivos o carpetas que no queremos incluir en el sistema de control de versiones, ya sea porque tienen información sensible o son autogeneradas por alguna herramienta: logs, archivos temporales, etc.
+[En git es posible ignorar archivos o carpetas que no queremos incluir en el sistema de control de versiones, ya sea porque tienen información sensible o son autogeneradas por alguna herramienta: logs, archivos temporales, etc.
 
 El archivo donde se define la lista de archivos y carpetas a ignorar se llama .gitignore. Como este archivo inicia con punto (.), en la mayoría de sistemas operativos aparecerá como un archivo oculto.
 
 Los archivos y carpetas definidos en .gitignore no van a aparecer como archivos nuevos o modificados al ejecutar git status.
 
-Si aún no existe el archivo .gitignore podemos crearlo con nuestro editor de texto favorito e incluirlo en el siguiente commit.
+Si aún no existe el archivo .gitignore podemos crearlo con nuestro editor de texto favorito e incluirlo en el siguiente commit.]
 
-# ¿Qué diferencia hay entre git add . y git add nombre-archivo?
+### git add . vs git add archivo
 
-- git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
-- git add + [nombre-archivo]: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.
+[- git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
+- git add + [nombre-archivo]: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.]
