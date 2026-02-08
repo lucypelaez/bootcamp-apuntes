@@ -35,18 +35,21 @@ Además también he empezado a familiarizarme con los comandos básicos de Git, 
 git log --oneline
 
 ¿Qué muestra? 
+
 [muestra los cambios que se han realizado en el repositorio y que se han guardado mediante commits en orden inverso, empezando por el último cambio que se ha hecho en el repositorio.]
 
 git remote -v
 
 ¿Qué información da? 
+
 [En esta caso muestra la ruta de los repositorios: 
 
 origin  https://github.com/lucypelaez/bootcamp-apuntes.git (fetch)
+
 origin  https://github.com/lucypelaez/bootcamp-apuntes.git (push)]
 
 git branch
-¿En qué rama estás? 
-[Este comando nos muestra en que rama del proyecto nos encontramos. Main en este caso sería la rama principal]
 
-]
+¿En qué rama estás? 
+
+[Este comando nos muestra en que rama del proyecto nos encontramos. Main en este caso sería la rama principal]
