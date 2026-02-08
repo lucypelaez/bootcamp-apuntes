@@ -53,3 +53,26 @@ git branch
 ¿En qué rama estás? 
 
 [Este comando nos muestra en que rama del proyecto nos encontramos. Main en este caso sería la rama principal]
+
+
+🔍 Parte 2: Preguntas de investigación
+Busca en internet (o prueba en la terminal) para responder estas preguntas. Añádelas a tu dia-01.md:
+
+¿Qué hace el comando git pull?
+
+El comando git pull se utiliza para buscar y descargar contenido de un repositorio remoto y actualizar inmediatamente el repositorio local para que coincida con ese contenido.
+
+¿Para qué sirve el archivo .gitignore?
+
+En git es posible ignorar archivos o carpetas que no queremos incluir en el sistema de control de versiones, ya sea porque tienen información sensible o son autogeneradas por alguna herramienta: logs, archivos temporales, etc.
+
+El archivo donde se define la lista de archivos y carpetas a ignorar se llama .gitignore. Como este archivo inicia con punto (.), en la mayoría de sistemas operativos aparecerá como un archivo oculto.
+
+Los archivos y carpetas definidos en .gitignore no van a aparecer como archivos nuevos o modificados al ejecutar git status.
+
+Si aún no existe el archivo .gitignore podemos crearlo con nuestro editor de texto favorito e incluirlo en el siguiente commit.
+
+¿Qué diferencia hay entre git add . y git add nombre-archivo?
+
+- git add .: Añade archivos modificados y nuevos (untracked) al stage area, buscando recursivamente desde la carpeta actual. También maneja eliminaciones de archivos.
+- git add <nombre-archivo>: Selecciona selectivamente archivos específicos, lo que permite mayor control sobre lo que se incluirá en el siguiente commit.
